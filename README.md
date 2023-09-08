@@ -19,7 +19,6 @@ Node.js v20.5.0
 
 
 ```
-2. user.route.js
    ```
 import express from "express"; 
 import userRoute from "./user . route. js";
@@ -31,7 +30,9 @@ router .use("/user", userRoute);
 router .use("/person", personRoute) ;
 
 router .use("/reviews", reviewRoute);
+```
 2)user.route.js
+```
 
 
 Import express from "express" 
